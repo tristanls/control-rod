@@ -1,0 +1,25 @@
+{
+  "name": "control-rod",
+  "version": "0.1.0",
+  "description": "Control structure for connecting and disconnecting event emitters and event handlers",
+  "scripts": {
+    "test": "node scripts/test.js"
+  },
+  "main": "index.js",
+  "devDependencies": {
+    "nodeunit": "0.8.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:tristanls/control-rod.git"
+  },
+  "keywords": [
+    "control",
+    "events",
+    "handlers",
+    "connect",
+    "disconnect"
+  ],
+  "author": "Tristan Slominski <tristan.slominski@gmail.com>",
+  "license": "MIT"
+}
