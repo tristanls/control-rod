@@ -21,7 +21,7 @@ var rod = new ControlRod(someEventEmitter, 'happening', function (param) {
 rod.connect(); // adds the event handler as the handler for 'happening' event
 
 someEventEmitter.emit('happening', 'myParam');
-// console: happening happeend with param myParam
+// console: happening happened with param myParam
 
 rod.disconnect(); // removes the event handler
 
